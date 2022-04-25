@@ -25,7 +25,6 @@ jobs:
       uses: actions/setup-node@v3
       with:
         node-version: ${{ matrix.node-version }}
-        cache: 'npm'
     - run: git clone https://github.com/louislam/uptime-kuma.git
     - run: cd uptime-kuma
     - run: npm install npm -g
