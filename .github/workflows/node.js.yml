@@ -30,5 +30,5 @@ jobs:
       working-directory: ./uptime-kuma
     - run: npm run setup
       working-directory: ./uptime-kuma
-    - run: pm2 start server/server.js --name uptime-kuma
+    - run: node server/server.js
       working-directory: ./uptime-kuma
