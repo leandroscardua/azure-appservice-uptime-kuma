@@ -26,7 +26,7 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
     - run: git clone https://github.com/louislam/uptime-kuma.git
-    - run: cd uptime-kuma
+    - run: cd uptime-kuma/
     - run: ls -lia
     - run: npm install npm -g
     - run: npm run setup
